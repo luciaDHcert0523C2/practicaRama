@@ -1,0 +1,35 @@
+   35  cd repaso
+   36  cd DH2023
+   37  cd practicaRama
+   38  mkdir practicaRama
+   39  mkdir Entrega1 Entrega2 Entrega3 Entrega4 Entrega5 Git-Github
+   40  ls -R
+   41  cd Desktop
+   42  cd DH2023
+   43  cd practicaRama
+   44  mkdir Entrega1 Entrega2 Entrega3 Entrega4 Entrega5 Git-Github
+   45  ls -R
+   46  cd Entrega1
+   47  touch Readme.MD
+   48  cp * ../Entrega1/
+   49  cp * ../Entrega2/ ../Entrega3/ ../Entrega4/ ../Entrega5/ ../Git-Github/
+   50  cp * ../Entrega2/
+   51  cp * ../Entrega3/
+   52  cp * ../Entrega4/
+   53  cp * ../Entrega5/
+   54  cd ..
+   55  ls
+   56  ls -R
+   57  git init
+   58  git add .
+   59  git commit -m "inicializando mochila"
+   60  git remote add origin https://github.com/luciaDHcert0523C2/practicaRama.git
+   61  git remote -v
+   62  git push origin main
+   63  git branch "trabajo-github"
+   64  git checkout "trabajo-github"
+   65  cd Git-Github
+   66  touch cheetsheet.txt
+   67  history 35 > /Git-Github/cheetsheet.txt
+   68  history 35
+   69  history 35 > ../Git-Github/cheetsheet.txt
